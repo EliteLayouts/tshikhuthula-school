@@ -3,8 +3,7 @@ import sitemap from '@astrojs/sitemap';
 
 // Static configuration for GitHub Pages
 export default defineConfig({
-  site: 'https://elitelayouts.github.io/tshikhuthula-school', // GitHub Pages URL for this repository
-  base: '/tshikhuthula-school', // Base path for GitHub Pages project repository
+  site: 'https://tshikhuthula-school.elitelayouts.co.za', // Custom domain for GitHub Pages
   output: 'static',
   integrations: [sitemap()],
   vite: {
