@@ -3,7 +3,7 @@ import sitemap from '@astrojs/sitemap';
 
 // Static configuration for GitHub Pages
 export default defineConfig({
-  site: 'https://servaas101.github.io', // Update this for your GitHub Pages deployment
+  site: 'https://tshikhuthula-school.github.io', // Custom domain for GitHub Pages
   output: 'static',
   integrations: [sitemap()],
   vite: {
